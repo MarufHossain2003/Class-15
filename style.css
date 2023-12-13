@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+body {
+    background-color: rgb(2, 2, 56)
+}
+.header{
+    /* position: ; */
+    top: 0;
+    left: 0; 
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px; */
+    padding: 15px 0px 15px 100px;
+}
+.logo{
+    text-decoration: none;
+    font-weight: 700px;
+    color: white;
+    font-size: 20px;
+}
+.navbar{
+    padding-right: 100px;
+}
+.navbar a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+.navbar .home_a{
+    color:rgb(2, 119, 119);
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: aqua;
+    
+}
+#content{
+    display: flex;
+    height: 100vh;
+    padding: 0 9%;
+    justify-content: center;
+    /* align-items: center;  */
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.467); */
+}
+.box_1{
+    color: white;
+    max-width: 650px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.box_1 h1{
+    font-size: 40px;
+}
+.box_2{
+    /* padding: 20px; */
+    margin-top: 15px;
+    display: inline-flex;
+}
+.box_1 p{
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 22px;
+}
+.box_1 h3{
+    color: aqua;
+    margin-top: 15px;
+}
+.box_2 a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: 300px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+.box_2 .anchor_1{
+    background-color: aqua;
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+.box_2 .anchor_2{
+    margin-left: 35px;
+    padding: 10px 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.social_icon{
+    position: absolute;
+    bottom: 20px;
+}
+.social_icon a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    color: aqua;
+    justify-content: center; /* content will adjust position in center from lert and right */
+    align-items: center; /* contnt will adjust position in center from top and bottom */
+    margin-left: 10px;
+}
+#service_box{
+    height: 300px;
+    width: 100%;
+    border: 0.5px solid aqua;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.web_design{
+    width:250px;
+    height: 200px;
+    border: 0.5px solid aqua;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px aqua;
+}
+.web_develop{
+    width:250px;
+    height: 200px;
+    border: 0.5px solid aqua;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px aqua;
+}
+.full_stack_developer{
+    width:250px;
+    height: 200px;
+    border: 0.5px solid aqua;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px aqua;
+}
+#service_box p{
+    text-align: justify;
+    padding: 10px;
+    overflow: hidden;
+}
+#service_box h2{
+    padding-top: 10px;
+    text-align: center;
+    color: aqua;
+}
